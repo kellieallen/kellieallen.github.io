@@ -1,0 +1,44 @@
+.container {
+    margin-bottom: 6em;
+    
+}
+
+.pcontainer {
+
+    border: 5px solid grey;
+    border-radius: 1%;
+    padding-bottom: 3em;
+    padding-top: 3em;
+    padding-left: 3em;
+    padding-right: 3em;
+    background-color: #daf4f7;
+  
+}
+
+.container .text-center {
+    margin-bottom: 1em;
+    
+}
+
+
+
+a:link {
+    color: white;
+    text-decoration: none;
+}
+
+a:visited {
+    color: white;
+    text-decoration: none;
+}
+
+a:hover {
+    color: white;
+    text-decoration: none;
+  }
+  
+a:active {
+    color: white;
+    text-decoration: none;
+  }
+

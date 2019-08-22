@@ -1,6 +1,7 @@
 .jumbotron{
-    background: url(../assets/maineheader.jpg) center center;
+    background: url(../assets/aptheader.jpg) center center;
     background-size: cover;
     height: 70vh;
-    text-align: center;
+    text-align: left;
+    color: DarkSlateGrey;
 }
