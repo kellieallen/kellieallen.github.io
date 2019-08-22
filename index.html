@@ -4,6 +4,7 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <meta name="referrer" content="origin">
 
     <link rel="apple-touch-icon" sizes="180x180" href="/apple-touch-icon.png">
     <link rel="icon" type="image/png" sizes="32x32" href="/favicon-32x32.png">
@@ -25,7 +26,7 @@
     
     <!-- CSS Files -->
 
-    <link rel ="stylesheet" href="css/main.css">
+    <link rel="stylesheet" href="css/main.css">
     
     <!-- Image Overlay CSS-->
 
@@ -183,7 +184,12 @@
 
 
         <div class="col-sm-6">
-            <form id=“fs-frm” name=“simple-contact-form” accept-charset=“utf-8” action=“https://formspree.io/kellierenee@gmail.com” method=“post”>
+            <form action="https://formspree.io/kellierenee@gmail.com" method="POST">
+              <input type="text" name="name">
+              <input type="email" name="_replyto">
+              <input type="submit" value="Send">
+            </form>
+            <!-- <form id=“fs-frm” name=“simple-contact-form” accept-charset=“utf-8” action=“https://formspree.io/kellierenee@gmail.com” method=“POST”>
            
 
               
@@ -217,7 +223,7 @@
    </div>   
 
    
-</form>
+</form> -->
 
 </div>
 <div class="col-sm-6" style="text-align: center">
