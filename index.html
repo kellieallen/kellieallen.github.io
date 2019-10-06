@@ -12,14 +12,10 @@
     <link rel="manifest" href="/site.webmanifest">
     <link rel="shortcut icon" type="image/png" href="./assets/favicon.ico"/>
     <link href="https://use.fontawesome.com/releases/v5.0.8/css/all.css" rel="stylesheet">
-    
+
     <title>Portfolio</title>
 
 
-
-
-
-    
     <!-- Bootstrap Link-->
     
     <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css" integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" crossorigin="anonymous">
@@ -51,11 +47,9 @@
                   <a class="nav-link" href="#portfolio">Portfolio</a>
                 </li>
                 <li class="nav-item">
-                    <a class="nav-link" href="#contact">Contact</a>
+                    <a class="nav-link" href="mailto:kellierenee@gmail.com">Contact</a>
                   </li>
-                  <li class="nav-item">
-                      <a class="nav-link" href="#skills">Skills</a>
-                    </li>
+                 
                   <li class="nav-item">
                       <a class="nav-link" href="./assets/Resume.pdf" target="_blank">Resume</a>
                     </li>
@@ -65,7 +59,10 @@
               <a href="https://www.linkedin.com/in/kellie-allen-csm-2a667948/" target="_blank"><i class="fab fa-linkedin fa-2x"></i></a>
               <a href="https://github.com/kellieallen" target="_blank"><i class="fab fa-github-square fa-2x"></i></a>
             </div>
+            
           </nav>
+
+          
 
 <!-- HEADER-->
 
@@ -93,8 +90,9 @@
 
                 <p>
                         I am studying JavaScript in an intensive boot camp at Eleven Fifty Academy in Fishers, Indiana.<br><br> After working closely with a dev team in product management at a digital communications company, I finally decided I wanted to create things and solve problems via code.<br><br>
-                        After a 9 year stint in NYC, I've returned home to Indianapolis and am excited to join its burgeoning tech community. You can find me at a Women Who Code Indianapolis meetup.<br><br>
-                        When I'm not coding, I challenge myself to read 24 books per year. I also enjoy cooking and have built a database of favorite recipes using Airtable.
+                        After a 9 year stint in NYC, I've returned home to Indianapolis and am excited to join its burgeoning tech community. You can find me at tech-related meetups around Indy.<br><br>
+                        When I'm not coding, I challenge myself to read 24 books per year. I also enjoy cooking and maintain an updated database of favorite recipes.<br><br>
+                        I have experience building projects with HTML5, CSS, JavaScript, React, Angular, Postman, PostgreSQL, GitHub and Heroku.
                 </p>
 
             </div>
@@ -112,56 +110,101 @@
     
                 </div>
 
-                <div class="col-sm-2">
-                  
-        
-                    </div>
+               
     
               
         </div>
-<br><br>
+
     </div>
 
 </div>
 </a>
 
-<!-- PORTFOLIO TRY 2-->
+<!-- PORTFOLIO -->
 
 <a name="portfolio">
-<div class="container"><div class="pcontainer">
+    <div class="card-deck">
+<div class="container">
     <div class="row">
       <div class="col">
           <h2 class="text-center text-uppercase">Portfolio</h2>
       </div>
     </div>
     <div class="row justify-content-between">
-      <div class="col">
-          <div class="pic">
-              <a href="http://htmlpreview.github.io/?https://github.com/kellieallen/staticLayout/blob/master/index.html" target="_blank"><img src="./assets/netflixstaticlayout.png" width="300" height="150" alt="Static Layout Project"></a>
-              <div class="text"><p><a href="http://htmlpreview.github.io/?https://github.com/kellieallen/staticLayout/blob/master/index.html" target="_blank">NETFLIX STATIC LAYOUT</a></p></div>
+        <div class="col">
+            <div class="card" style="width: 18rem;">
+              <a href="http://htmlpreview.github.io/?https://github.com/kellieallen/staticLayout/blob/master/index.html" target="_blank"><img src='./assets/netflixstaticlayout.png' class="card-img-top" alt="Netflix recreation screenshot" width="300px" height="150px"></a>
+              <div class="card-body">
+                <h5 class="card-title">First HTML Challenge</h5>
+                <p class="card-text">Recreated Netflix's signup page using HTML and CSS.</p>
               </div>
-      </div>
-      <div class="col">
-          <div class="pic">
-                    
-              <a href="https://codepen.io/kellieallen/pen/ZgvBLY" target="_blank"><img src="./assets/piggiesmalls.png" width="300" height="150 alt="CSS Project"></a>
-              <div class="text"><p><a href="https://codepen.io/kellieallen/pen/ZgvBLY" target="_blank">CSS Project</a></p></div></a>
-              </div>
-      </div>
-      <div class="col">
-          <div class="pic">
-                      
-              <a href="https://buzzfeed-quiz-api-project.web.app/" target="_blank"><img src="./assets/bflayout.png" width="300" height="150" class="image alt="API Project"></a>
-              <div class="text"><p><a href="https://buzzfeed-quiz-api-project.web.app/" target="_blank">API Project</a></p></div>
             </div>
+          </div>
+      <div class="col">
+          <div class="card" style="width: 18rem;">
+              <a href="https://codepen.io/kellieallen/pen/ZgvBLY" target="_blank" ><img src='./assets/piggiesmalls.png' class="card-img-top" alt="CSS creature" width="300px" height="150px"></a>
+              <div class="card-body">
+                <h5 class="card-title">First CSS Challenge</h5>
+                <p class="card-text">Meet Piggie Smalls, a creature designed using CSS only.</p>
+              </div>
+           
+          </div>
+      </div>
+      <div class="col">
+          <div class="card" style="width: 18rem;">
+              <a href="https://buzzfeed-quiz-api-project.web.app/" target="_blank" ><img src='./assets/bflayout.png' class="card-img-top" alt="Buzzfeed API screenshot" width="300px" height="150px"></a>
+              <div class="card-body">
+                <h5 class="card-title">First API Challenge</h5>
+                <p class="card-text">Created a twist on the Buzzfeed quiz using the Edamam API.</p>
+              </div>
+            </div>
+          </div>
+    </div>
+    <div class="row">
+   
+        <div class="col">
+        
+        </div>
+      </div>
+      <div class="row justify-content-between">
+        <div class="col">
+          <div class="card" style="width: 18rem;">
+            <a href="https://poshable.herokuapp.com/" target="_blank" ><img src='./assets/poshablelogin.png' class="card-img-top" alt="Poshable screenshot" width="300px" height="150px"></a>
+            <div class="card-body">
+              <h5 class="card-title">React App - Poshable</h5>
+              <p class="card-text">First full CRUD React app, using node.js to build the back end.</p>
+            </div>
+          </div>
+        </div>
+
+        <div class="col">
+            <div class="card" style="width: 18rem;">
+          <a href="https://github.com/kellieallen/swAPIGroupProject" target="_blank"><img src='./assets/swapi.png' class="card-img-top" alt="Star Wars API screenshot" width="300px" height="150px"></a>
+          <div class="card-body">
+            <h5 class="card-title">Angular App - SWAPI</h5>
+            <p class="card-text">My first Angular app using the Star Wars API.</p>
+          </div>
+        </div>
+        </div>
+        <div class="col">
+        <div class="card" style="width: 18rem;">
+          <img src='./assets/comingsoon.jpg' class="card-img-top" alt="Angular screenshot" width="300px" height="150px">
+          <div class="card-body">
+            <h5 class="card-title">Coming Soon - Angular</h5>
+            <p class="card-text">Full CRUD Angular app in progress!</p>
+          </div>
+        </div>
+        
       </div>
     </div>
   </div>
+  </div>
 </div>
+
   
 <!-- Contact -->
 
-
+<!-- 
 <a name="contact"></a>
 
 <div class="container">
@@ -189,41 +232,7 @@
               <input type="email" name="_replyto" placeholder="email@email.com">
               <input type="submit" value="Send">
             </form>
-            <!-- <form id=“fs-frm” name=“simple-contact-form” accept-charset=“utf-8” action=“https://formspree.io/kellierenee@gmail.com” method=“POST”>
-           
 
-              
-                <fieldset id=“fs-frm-inputs”>
-                    <div class="form-group">
-
-                <label for="full-name">Full Name</label>
-                <input class="form-control" type="text" name="name" id="full-name" placeholder="First and Last" required="">
-          </div>  
-        
-        
-         
-
-<div class="form-group">
-
-    <label for="email-address">Email Address</label>
-    <input class="form-control" type="email" name="_replyto" id="email-address" placeholder="email@email.com" required="">
-</div>
-
-<div class="form-group">
-
-    <label for="message">Message</label>
-    <textarea class="form-control" rows="5" name="message" id="message" placeholder="Enter message here." required=""></textarea>
-    <input type="hidden" name="_subject" id="email-subject" value="Contact Form Submission">
-
-</div>
-
-  </fieldset>
-  <div class="text-center">
-  <button type="submit" class="btn btn-secondary">Send Message</button>
-   </div>   
-
-   
-</form> -->
 
 </div>
 <div class="col-sm-6" style="text-align: center">
@@ -237,7 +246,7 @@
 
 
  <script src="js/main.js"></script>
-
+ -->
 
 
 

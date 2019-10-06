@@ -9,7 +9,7 @@
 
 body {
 
-    background-color: var(--lightgrey);
+    /* background-color: var(--lightgrey); */
 
 
 }
@@ -48,14 +48,15 @@ border-radius: 3%;
 }
 
 
-.pic:hover > .text {
+/* .pic:hover > .text {
     height: 150px;
     width: 305px;
-}
+} */
 
 .portfolio {
 
     margin-bottom: 5em;
 } 
+
 
 
