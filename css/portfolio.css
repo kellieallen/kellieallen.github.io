@@ -1,66 +1,62 @@
 .container {
-    margin-bottom: 6em;
-    
+  margin-bottom: 6em;
+
 }
 
 .pcontainer {
 
-    /* border: 1px solid grey; */
-    border-radius: 1%;
-    padding-bottom: 3em;
-    padding-top: 3em;
-    padding-left: 3em;
-    padding-right: 3em;
-    /* background-color: #daf4f7; */
-    
-  
+
+  border-radius: 1%;
+  padding-bottom: 3em;
+  padding-top: 3em;
+  padding-left: 3em;
+  padding-right: 3em;
+
+
+
 }
 
 .container .text-center {
-    margin-bottom: 1em;
-    
+  margin-bottom: 1em;
+
 }
 
 
 
 a:link {
-    color: white;
-    text-decoration: none;
+  color: white;
+  text-decoration: none;
 }
 
 a:visited {
-    color: white;
-    text-decoration: none;
+  color: white;
+  text-decoration: none;
 }
 
 a:hover {
-    color: white;
-    text-decoration: none;
-  }
-  
+  color: white;
+  text-decoration: none;
+}
+
 a:active {
-    color: white;
-    text-decoration: none;
-  }
+  color: white;
+  text-decoration: none;
+}
 
-  .card-text {
-    font-family: "Segoe UI",Roboto,"Helvetica Neue",Arial,"Noto Sans",sans-serif,"Apple Color Emoji","Segoe UI Emoji","Segoe UI Symbol","Noto Color Emoji";
+.card-text {
+  font-family: "Segoe UI", Roboto, "Helvetica Neue", Arial, "Noto Sans", sans-serif, "Apple Color Emoji", "Segoe UI Emoji", "Segoe UI Symbol", "Noto Color Emoji";
 
-  }
+}
 
-  .card-deck {
-    display: flex;   
-    justify-content: space-evenly;
-    flex-wrap: wrap;
-    
-  }
+.card-deck {
+  display: flex;
+  justify-content: space-evenly;
+  flex-wrap: wrap;
 
-  .card {
-    display: flex;
-    flex: 0 1 24%;
-    margin:30px;
-  }
+}
 
-  /* .card-body {
-      background: #daf4f7;
-  } */
+.card {
+  display: flex;
+  flex: 0 1 24%;
+  margin: 30px;
+}

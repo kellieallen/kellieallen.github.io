@@ -1,20 +1,19 @@
 img {
-    
-width: 19em;   
-border-radius: 1%;
+
+    width: 19em;
+    border-radius: 1%;
 }
 
 
-.col-sm-5 {   
+.col-sm-5 {
 
-padding: 30px 0;
-font-size: 14.5px;
+    padding: 30px 0;
+    font-size: 14.5px;
 
 
 }
 
-.polaroid-image{
+.polaroid-image {
 
     transform: rotate(3deg);
 }
-

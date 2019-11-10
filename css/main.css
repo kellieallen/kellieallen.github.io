@@ -7,24 +7,19 @@
 @import "about.css";
 @import "portfolio.css";
 
-body {
 
-    /* background-color: var(--lightgrey); */
-
-
-}
 
 img {
 
-border-radius: 3%;
+    border-radius: 3%;
 }
 
 .pic {
     position: relative;
     width: 200px;
     height: 150px;
-  
-    
+
+
 }
 
 .text {
@@ -34,29 +29,21 @@ border-radius: 3%;
     left: 0;
     width: 305px;
     height: 0;
-    text-align: center;    
+    text-align: center;
     background: rgba(54, 69, 72, 0.9);
-    transition: height 0.7s ease-out;   
-    color: white; 
-    font-family: "Segoe UI",Roboto,"Helvetica Neue",Arial,"Noto Sans",sans-serif,"Apple Color Emoji","Segoe UI Emoji","Segoe UI Symbol","Noto Color Emoji";
+    transition: height 0.7s ease-out;
+    color: white;
+    font-family: "Segoe UI", Roboto, "Helvetica Neue", Arial, "Noto Sans", sans-serif, "Apple Color Emoji", "Segoe UI Emoji", "Segoe UI Symbol", "Noto Color Emoji";
     line-height: 150px;
     vertical-align: middle;
     font-weight: bold;
     border-radius: 3%;
     text-decoration: none;
-    
+
 }
 
-
-/* .pic:hover > .text {
-    height: 150px;
-    width: 305px;
-} */
 
 .portfolio {
 
     margin-bottom: 5em;
-} 
-
-
-
+}
